@@ -19,5 +19,5 @@ function swap(a, b)
     
     
     console.log('a value is =', a);
-    console.log('b value is =', b)
+    console.log('b value is =', b);
 }
