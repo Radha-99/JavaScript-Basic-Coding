@@ -1,0 +1,66 @@
+In coding, the term "input as a parameter" refers to passing data or values into a function or method when it is called. Parameters are variables that act as placeholders for these inputs, allowing the function to work with different data each time it is invoked.
+
+When you define a function, you can specify one or more parameters inside the parentheses of the function declaration. These parameters act as placeholders for the actual values that will be passed to the function when it is called.
+
+Here's the general syntax of defining a function with parameters:
+
+```javascript
+function functionName(parameter1, parameter2, ...) {
+  // Function code that uses the parameters
+}
+```
+
+Let's break down this concept with an example:
+
+```javascript
+function greet(name) {
+  console.log(`Hello, ${name}!`);
+}
+```
+
+In this example, `name` is the parameter of the `greet` function. When you call this function and provide an argument, that argument will be passed to the `name` parameter. The function will then use that argument to display a personalized greeting:
+
+```javascript
+greet('John'); // Output: Hello, John!
+greet('Alice'); // Output: Hello, Alice!
+```
+
+In the first call, the argument `'John'` is passed to the `name` parameter, and in the second call, the argument `'Alice'` is passed to the same `name` parameter. The function uses these arguments to customize the greeting.
+
+You can have multiple parameters in a function:
+
+```javascript
+function addNumbers(a, b) {
+  return a + b;
+}
+
+const result = addNumbers(5, 10);
+console.log(result); // Output: 15
+```
+
+Here, the `addNumbers` function takes two parameters `a` and `b`. When you call `addNumbers(5, 10)`, the values `5` and `10` are passed to the function, and it returns the sum of these two values (`15`).
+
+Using parameters in functions allows you to create more flexible and reusable code because you can pass different data each time you call the function. It's a powerful concept that enables functions to work with various inputs and produce different results based on those inputs.
+
+In JavaScript, "params" is a commonly used abbreviation for "parameters." Parameters are variables that are used to receive input values or arguments passed to a function when it is called. They act as placeholders for the actual data that will be used inside the function.
+
+When you define a function, you can specify one or more parameters inside the parentheses of the function declaration. These parameters allow you to accept different values each time the function is called, making the function more flexible and reusable.
+
+Here's a simple example of a function with parameters:
+
+```javascript
+function addNumbers(a, b) {
+  return a + b;
+}
+```
+
+In this function, `a` and `b` are the parameters. When you call the function `addNumbers` and provide two arguments, those arguments will be passed to the `a` and `b` parameters, respectively. The function will then use these parameters to perform the addition and return the result:
+
+```javascript
+const sum = addNumbers(5, 10);
+console.log(sum); // Output: 15
+```
+
+In this example, the values `5` and `10` are the arguments that are passed to the function's parameters `a` and `b`, respectively. The function adds these two values and returns `15`.
+
+The term "params" is often used as a short form of "parameters" in various contexts, such as in documentation, comments, or informal discussions among developers. It's worth noting that "params" is not a reserved keyword or a specific concept in JavaScript; it's simply a common abbreviation used to refer to function parameters.
